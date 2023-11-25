@@ -33,12 +33,12 @@ const HeaderText = () => {
         Join the waitlist
       </button>
 
-      <div className="w-full sm:w-[30%] bg-inherit mt-20">
+      <div className="w-full sm:w-full flex justify-center items-center bg-inherit mt-20">
         <Image src={Matched} alt="Matched couple" />
       </div>
 
       <div className="flex mt-4 border-t-2 border-t-orange-700">
-        <p className="w-[350px] sm:w-[450px] text-center sm:text-right mt-2 pb-4">
+        <p className="w-[350px] sm:w-[450px] text-center sm:text-right font-font mt-2 pb-4">
           At Gleephoria, we believe that finding your soulmate is a journey
           worth taking. That's why we've created a dating platform that is
           designed to help you connect with individuals who share your

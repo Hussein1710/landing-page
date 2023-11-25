@@ -3,8 +3,8 @@ import React from "react";
 const Waitlist = () => {
   return (
     <div className="block sm:flex justify-between items-center mb-10 p-4 px-4 sm:px-28">
-      <div className="border-t-2 border-t-orange-600 w-1/2 sm:w-1/4 border-b-2 border-b-orange-600">
-        <p className="text-left sm:text-center">Join the waitlist</p>
+      <div className="border-t-2 border-t-orange-600 w-1/2 sm:w-1/4 border-b-2 border-b-orange-600 sm:mb-72">
+        <p className="text-left sm:text-center ">Join the waitlist</p>
       </div>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-3">
@@ -13,7 +13,7 @@ const Waitlist = () => {
             Gleephoria
           </h1>
         </div>
-        <p className="w-[500px] font-normal">
+        <p className="w-[500px] font-normal font-gruppo">
           That's why we've created a dating platform that is designed to help
           you connect with individuals who share your interests, values, and
           lifestyle.

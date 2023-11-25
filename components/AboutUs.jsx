@@ -11,7 +11,7 @@ const AboutUs = () => {
           <p className="text-3xl font-bold bg-orange-600 text-transparent bg-clip-text">
             Soul-mate
           </p>
-        <p className="w-[300px] mt-4">
+        <p className="w-[300px] mt-4 font-charmona">
           At Gleephoria, we believe that finding your soulmate is a journey
           worth taking. That's why we've created a dating platform that is
           designed to help you connect with individuals who share your

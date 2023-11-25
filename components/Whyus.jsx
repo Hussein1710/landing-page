@@ -1,5 +1,6 @@
 import React from "react";
-import Lady from "/public/images/Lady.svg";
+import Image from "next/image";
+import Lady from "../public/images/Lady.jpg";
 
 const Whyus = () => {
   return (
@@ -10,14 +11,14 @@ const Whyus = () => {
         <p className="text-3xl font-bold bg-orange-600 text-transparent bg-clip-text">
           Different
         </p>
-        <p className="w-[300px] mt-4">
+        <p className="w-[300px] mt-4 font-ski">
           At Gleephoria, we believe that finding your soulmate is a journey
           worth taking at Gleephoria, we believe that finding your soulmate is a
           journey worth taking
         </p>
       </div>
       <div>
-        <Lady className="w-0 sm:w-full items-start" />
+        <Image src={Lady} alt="Lady" className="w- sm:w-full items-start" />
       </div>
     </section>
   );

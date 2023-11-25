@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Cormorant+Garamond:wght@300&family=Gruppo&family=Quicksand:wght@300&family=Srisakdi&display=swap');
 
 body {
   padding: 0;
