@@ -31,7 +31,7 @@ const Modal = ({ isVisible, onClose }) => {
       <div className="w-[450px] sm:w-[600px]">
         <div className="bg-white p-2 rounded">
           <div className="p-6 flex flex-col items-center">
-            <GiSelfLove size={50} />
+            <GiSelfLove size={50} className="text-orange-500" />
             <h1 className="mt-4 text-slate-500">Join The Waitlist</h1>
             <p className="text-[14px] font-gruppo mt-4 w-[350px] sm:w-[450px] whitespace-pre-line mb-4">
               Join the waitlist for exclusive benefits, early access, and
@@ -56,7 +56,7 @@ const Modal = ({ isVisible, onClose }) => {
               >
                 <RxPaperPlane
                   size={30}
-                  className="bg-orange-500 rounded-full"
+                  className="bg-orange-500 text-white rounded-full"
                 />
               </button>
             </form>

@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <footer className='bg-gray-100'>
         <div className="flex justify-center items-center gap-7 pt-8">
-            <FaTwitter size={40} />
-            <RiWhatsappFill size={40} />
-            <FaInstagramSquare size={40} />
-            <FaLinkedin size={40} />
+            <FaTwitter size={40} className='text-orange-500' />
+            <RiWhatsappFill size={40} className='text-orange-500' />
+            <FaInstagramSquare size={40} className='text-orange-500' />
+            <FaLinkedin size={40} className='text-orange-500' />
         </div>
         <div className="flex justify-center items-center gap-1 mt-8">
             <p className='border-r-[3px] border-r-black pr-1'>Home</p>
