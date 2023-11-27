@@ -1,3 +1,4 @@
+import Button from "@/reuseables/Button";
 import Link from "next/link";
 const Header = () => {
   return (
@@ -9,9 +10,9 @@ const Header = () => {
         <Link href="/about-us">About us</Link>
         <Link href="/contact">Contact</Link>
       </div>
-      <button className="hidden sm:flex justify-center items-center px-14 py-4 rounded-3xl bg-gradient-to-r from-orange-300 via-orange-600 ">
-        Join the waitlist
-      </button>
+      <div className="hidden sm:flex rounded-3xl px-14">
+      <Button />
+      </div>
     </header>
   );
 };

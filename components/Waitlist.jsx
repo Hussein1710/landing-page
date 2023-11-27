@@ -1,3 +1,4 @@
+import Button from "@/reuseables/Button";
 import React from "react";
 
 const Waitlist = () => {
@@ -8,7 +9,9 @@ const Waitlist = () => {
       </div>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-3">
-          <h1 className="font-bold text-3xl mt-4 sm:m-18">Experience your world with</h1>
+          <h1 className="font-bold text-3xl mt-4 sm:m-18">
+            Experience your world with
+          </h1>
           <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-300 via-orange-700 inline-block text-transparent bg-clip-text ">
             Gleephoria
           </h1>
@@ -18,10 +21,8 @@ const Waitlist = () => {
           you connect with individuals who share your interests, values, and
           lifestyle.
         </p>
-        <div className="pb-2">
-        <button className="flex justify-center items-center mb-16 mt-16 px-14 py-4 rounded-3xl bg-gradient-to-r from-orange-400 via-orange-700">
-        Join the waitlist
-      </button>
+        <div className="pb-2 sm:flex">
+          <Button />
         </div>
       </div>
     </div>

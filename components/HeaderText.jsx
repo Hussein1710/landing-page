@@ -3,6 +3,7 @@ import Image from "next/image";
 import DownloadOnAppstore from "../public/images/DownloadOnAppstore.png";
 import DownloadOnPlaystore from "../public/images/DownloadOnPlaystore.png";
 import Matched from "../public/images/Matched.jpg";
+import Button from "@/reuseables/Button";
 
 const HeaderText = () => {
   return (
@@ -29,9 +30,9 @@ const HeaderText = () => {
           alt="Download on Play Store"
         />
       </div>
-      <button className="flex sm:hidden justify-center items-center mt-16 px-14 py-4 rounded-3xl bg-gradient-to-r from-orange-300 via-orange-600">
-        Join the waitlist
-      </button>
+      <div className="mt-5 flex sm:hidden">
+        <Button />
+      </div>
 
       <div className="w-full sm:w-full flex justify-center items-center bg-inherit mt-20">
         <Image src={Matched} alt="Matched couple" />
