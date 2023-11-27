@@ -1,10 +1,11 @@
+
 "use client";
 import React, { useState } from "react";
 import { GiSelfLove } from "react-icons/gi";
 import { RxPaperPlane } from "react-icons/rx";
 
 const Modal = ({ isVisible, onClose }) => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState(""); // useState called unconditionally
 
   const handleClose = (e) => {
     if (e.target.id === "wrapper") onClose();
