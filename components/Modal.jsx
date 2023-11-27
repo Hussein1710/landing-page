@@ -4,12 +4,11 @@ import { GiSelfLove } from "react-icons/gi";
 import { RxPaperPlane } from "react-icons/rx";
 
 const Modal = ({ isVisible, onClose }) => {
-  if (!isVisible) return null;
+  const [email, setEmail] = useState("");
 
   const handleClose = (e) => {
     if (e.target.id === "wrapper") onClose();
   };
-  const [email, setEmail] = useState("");
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -19,6 +18,8 @@ const Modal = ({ isVisible, onClose }) => {
     e.preventDefault();
     console.log("Email submitted:", email);
   };
+
+  if (!isVisible) return null;
 
   return (
     <div
@@ -36,7 +37,10 @@ const Modal = ({ isVisible, onClose }) => {
               exciting updates. Don't miss out—be among the first to know and
               secure your spot before others. Sign up now!
             </p>
-            <form onSubmit={handleSubmit} className="flex justify-between gap-10 items-center border-2 border-orange-400 rounded-3xl p-1 px-6">
+            <form
+              onSubmit={handleSubmit}
+              className="flex justify-between gap-10 items-center border-2 border-orange-400 rounded-3xl p-1 px-6"
+            >
               <input
                 type="email"
                 value={email}
@@ -45,8 +49,14 @@ const Modal = ({ isVisible, onClose }) => {
                 required
                 className="rounded px-3 py-2 focus:border-transparent focus:outline-none"
               />
-              <button type="submit" className="bg-orange-500 rounded-full p-2 items-end">
-                <RxPaperPlane size={30} className="bg-orange-500 rounded-full" />
+              <button
+                type="submit"
+                className="bg-orange-500 rounded-full p-2 items-end"
+              >
+                <RxPaperPlane
+                  size={30}
+                  className="bg-orange-500 rounded-full"
+                />
               </button>
             </form>
           </div>

@@ -16,7 +16,7 @@ const Waitlist = () => {
             Gleephoria
           </h1>
         </div>
-        <p className="w-[500px] font-normal font-gruppo">
+        <p className="w-[370px] sm:w-[500px] font-normal font-gruppo">
           That's why we've created a dating platform that is designed to help
           you connect with individuals who share your interests, values, and
           lifestyle.
