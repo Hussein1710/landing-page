@@ -3,9 +3,11 @@ import React from "react";
 
 const Waitlist = () => {
   return (
-    <div className="block sm:flex justify-between items-center mb-10 p-4 px-4 sm:px-28">
-      <div className="border-t-2 border-t-orange-600 w-1/2 sm:w-1/4 border-b-2 border-b-orange-600 sm:mb-72">
-        <p className="text-left sm:text-center ">Join the waitlist</p>
+    <div className="block sm:flex justify-center items-center gap-24 mb-10 p-4 px-4 sm:px-28">
+      <div className="sm:mb-[190px]">
+        <div className="flex justify-end items-end border-t-2 border-t-orange-600 w-1/2 sm:w-1/4"></div>
+        <p className="text-left sm:text-center">Join the waitlist</p>
+        <div className="border-b-2 border-b-orange-600"></div>
       </div>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-3">

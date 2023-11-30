@@ -38,7 +38,8 @@ const HeaderText = () => {
         <Image src={Matched} alt="Matched couple" />
       </div>
 
-      <div className="flex mt-4 border-t-2 border-t-orange-700">
+      <div className="">
+        <div className="flex mt-4 w-2/4 border-t-2 border-t-orange-700"></div>
         <p className="w-[350px] sm:w-[450px] text-center sm:text-right font-font mt-2 pb-4">
           At Gleephoria, we believe that finding your soulmate is a journey
           worth taking. That's why we've created a dating platform that is
